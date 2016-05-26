@@ -5,12 +5,21 @@
 
 
 
+$font-size: 22px;
 
 
 
 h1 {
-
+  font-size: $font-size
 }
+
+/* A mozemy to zrobic w taki sposób i dodac operatory
+
+h1 {
+  font-size: $font-size + 20;
+  }
+
+*/
 
 .content {
   background-color: #c1d4c8;
