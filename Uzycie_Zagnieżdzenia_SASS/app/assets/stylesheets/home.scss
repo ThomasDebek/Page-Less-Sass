@@ -17,4 +17,21 @@ body {
   width: 55%;
   padding: 40px;
   @include border;
+  ul {
+    list-style-type: none;  //usune domyslne numeratory umieszczone przez przeglądarke
+    li {
+      margin-bottom:7px;
+      a {
+        color: #444;
+        text-decoration: none;
+        &:hover {
+          color: #888;
+        }
+        &:after {
+          content: " >>";
+        }
+      }
+
+    }
+  }
 }
