@@ -1,3 +1,35 @@
 // Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
+// They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@mixin border {
+  border: 1px solid #888;
+}
+
+
+@mixin border-radius($radius: 10px) {
+  border-radius: $radius;
+}
+
+@mixin shadow($args...) {  //dzieki tym 3kropeczkom kompilator bedzie wiedzial ze moze wywolac 1lub2 lub 3 elementy
+  box-shadow: $args;
+}
+
+h1 {
+  width: 35%;
+  @include border;
+  @include border-radius(7px);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding-left: 50px;
+}
+
+.content {
+  width: 55%;
+  padding: 40px;
+  @include border;
+  @include shadow(5px 5px 2px #333, -5px -5px 2px #F00)   //Dodalismy cien, a po przecinku drugi - MUSI BYC PRZECINEK
+}
