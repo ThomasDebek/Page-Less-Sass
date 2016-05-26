@@ -1,0 +1,25 @@
+.border(@radius;@style;@color) {
+  border-width: @radius;
+  border-style: @style;
+  border-color: @color;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+header {
+  .border(1px;solid;#CCC);
+}
+
+section {
+  .border(2px;dashed;#777);
+}
+
+footer {
+
+}
