@@ -1,5 +1,5 @@
-.border(@radius;@style;@color) {
-  border-width: @radius;
+.border(@width: 1px; @style: solid; @color: #CCC) {    /* tu okreslimy sobie wysokodc, styl i kolor */
+  border-width: @width;
   border-style: @style;
   border-color: @color;
 }
@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 header {
-  .border(1px;solid;#CCC);
+  .border();
 }
 
 section {
