@@ -6,6 +6,9 @@
 
 
 $font-size: 22px;
+/* Tu bedziemy mieli przechowywanie paddingu czyli listy zmiennych*/
+
+$padding: 30px 40px 40px 10px; //góra prawa dół lewa
 
 
 
@@ -23,4 +26,5 @@ h1 {
 
 .content {
   background-color: #c1d4c8;
+  padding: $padding;
 }
