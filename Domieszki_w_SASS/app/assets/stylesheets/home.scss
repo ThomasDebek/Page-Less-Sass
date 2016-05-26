@@ -1,3 +1,44 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+@mixin border {
+  border: 1px solid #888;
+}
+
+@mixin fonts {
+  font-family: 'Arial', SansSerif;
+}
+
+@mixin headers {
+  font-weight: 400;
+  color: #999;
+  @include fonts;
+}
+
+h1, h2 {
+  @include headers;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding-left: 50px;
+}
+
+h1 {
+  width: 35%;
+  @include border;
+}
+
+.content {
+  width: 55%;
+  padding: 40px;
+  @include border;
+}
+
+
+
+
