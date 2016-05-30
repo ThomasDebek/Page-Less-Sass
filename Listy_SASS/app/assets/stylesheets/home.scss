@@ -1,0 +1,27 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+
+
+$colors: #F00 #0F0 #00F;   // Dajemy sobie zmienną kolor i trzy kolory: czerwony, zielony, niebieski
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+p {
+  color: nth($colors, 3); // i zeby go uzyc musimy dac nth-to nr(koloru) i zmienną i pozycje koloru tej zmiennej
+}
+ // i w tym przypadku mamy kolor niebieski i pozycji nr 3
+
+
