@@ -3,6 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+// PRAPROCESOR SASS
+
+
+// CHCEMY PODZIELIC nasze wiersze na KOLUMNY  i zrobimy to za pomocą funkcji
+
+$column-width: 80px;   // Tu mamy szerokość 80pikseli
+
+@function make-columns($number) {    // A tu nasza funkcja o nazwie make-columns i z paramterem $number
+  @return $number*$column-width;    // Teraz musi zwrócić nam obydwie pomnożone przez siebie
+}
+
 
 
 body {
@@ -20,8 +31,10 @@ div {
 
 .main {
   background-color: #555;
+  width: make-columns(6);    // Tutaj nasz funkcja pomnozyla nasz element 6razy
 }
 
 .aside {
   background-color: #777;
+  width: make-columns(3);   // A tutaj nasz funkcja ponożyła nasz element 3 razy
 }
