@@ -3,12 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+$color-variant: 'Dark';     // Ustawmy sobie zmienną koloru i ustawamy na 'Dark' ciemny
+
+
+@mixin set-color-variant {     // Dodajmy domieszke i nazwimy ją ustaw kolor warint
+  @if $color-variant == Dark {   // Dajmy to w pętli i porównajmy to z kolorem
+    color: #FFF;                  // ustawmy kolory
+    background: #000;             // to samo
+  }
+  @else if $color-variant == Light {  // A jeżeli kolor Light to zmienia sie kolory
+    color: #000;
+    background: #FFF;
+  }
+}
 
 
 
 body {
   font-family: 'Arial', sans-serif;
   padding: 0 50px;
+  @include set-color-variant;       // Zeby to zadziałało to wywołamy to na jednym z elementów
 }
 
 h1, h2 {

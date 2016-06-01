@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b68d7a5-2c6e-4846-ae1b-7813c1c3ac9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Placeholder_SASS/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/Placeholder_SASS/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss" afterPath="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss" />
     </list>
     <ignored path="Apeczki.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,21 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07065217">
+            <state vertical-scroll-proportion="-2.3636363">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.045455">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42391303">
+              <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/config/database.yml" />
         <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/config/routes.rb" />
         <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss" />
       </list>
     </option>
   </component>
@@ -192,8 +191,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="343" />
-    <option name="y" value="47" />
+    <option name="x" value="455" />
+    <option name="y" value="70" />
     <option name="width" value="1097" />
     <option name="height" value="849" />
   </component>
@@ -502,7 +501,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="343" y="47" width="1097" height="849" extended-state="0" />
+    <frame x="455" y="70" width="1097" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22464456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -761,6 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.045455">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.045455">
@@ -905,8 +897,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07065217">
+        <state vertical-scroll-proportion="-2.3636363">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dyrektywa_IF_SASS/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42391303">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
           <folding />
         </state>
       </provider>
