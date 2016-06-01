@@ -2,8 +2,18 @@
 // They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$icons: facebook googleplus twitter youtube;
+$icons: facebook googleplus twitter youtube;     // Dodamy zminną ze zdjeciami
 
+
+
+@mixin social-icons {                           // Tworzymy domieszke o nazwie social-icons
+  @each $icon in $icons {                       // literujemy po niej tworząc tym samym inną zmienną
+    .social-#{$icon} {                                            // Wchodzimy do klasy .social-która jest w indexie
+      //background: asset-url(/assets/#{$icon}.png) no-repeat;
+      background: url('#{$icon}.png') no-repeat;                  // i tu nam literuje po klasie
+    }
+  }
+}
 
 
 body {
@@ -16,7 +26,8 @@ h1, h2 {
 }
 
 .social-block {
-  margin-top: 50px;
+  margin-top: 100px;
+  @include social-icons;                    // Zeby ją dodać musimy naturalnie ją umieścić w klasie social-block
   span {
     display: inline-block;
     margin-right: 20px;
