@@ -4,10 +4,27 @@
 
 
 $bg-color: #0B4C5F;
+$i: 10;
+
+
+
+@mixin generate-stripes {
+  @while $i > 0 {
+    .block-#{$i} {
+      background: lighten($bg-color,50%);
+    }
+    $i: $i - 1;    // Musimy przerwac petle, inaczej byla by to pętla nieskączona
+  }
+}
+
+
+
 
 body {
   font-family: 'Arial', sans-serif;
   padding: 0 50px;
+  @include generate-stripes;
+
 }
 
 h1, h2 {
