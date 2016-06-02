@@ -1,0 +1,29 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+body {
+  font-family: $font-family;
+  padding: $body-padding;
+}
+
+h1, h2 {
+  font-weight: $def-font-weight;
+}
+
+p {
+  font-size: $basic-font-size;
+  line-height: 24px;
+  @include basic-border;
+}
+
+.btn {
+  @include basic-button(#FFF,#0B3861);
+}
+
+
+
+
+
