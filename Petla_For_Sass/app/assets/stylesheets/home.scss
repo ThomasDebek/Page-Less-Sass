@@ -6,7 +6,13 @@
 $bg-color: #0B4C5F;
 
 
-
+@mixin create-colors {
+  @for $i from 1 through 10 {               // $i - to nasza zmienna od zakresu 1 do 10
+    .block-#{$i} {                          // czynosci jakie wykonuje to z indexu block i w haszu wartosc zmiennej
+      background: lighten($bg-color,$i);    // i w bloku wewnetrznym wygenerowany jest selektor i my chcemy rozjasnic te kolory -za pomocą lighten i nasza zmienna bg-color bedzie stopniowo rozjasniany
+    }
+  }
+}
 
 
 
@@ -16,6 +22,7 @@ $bg-color: #0B4C5F;
 body {
   font-family: 'Arial', sans-serif;
   padding: 0 50px;
+  @include create-colors;
 }
 
 h1, h2 {
