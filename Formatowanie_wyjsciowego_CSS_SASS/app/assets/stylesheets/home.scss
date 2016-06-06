@@ -1,0 +1,37 @@
+$text-color: #333;
+$base-font: 'Arial', sans-serif;;
+
+@mixin border-bottom {
+  border-bottom: 1px solid #CCC;
+}
+
+body {
+  font-family: $base-font;
+  padding: 0 50px;
+  color: $text-color;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+p {
+  a {
+    color: lighten($text-color,45%);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline
+    }
+  }
+}
+
+.bottom {
+  p {
+    font-style: italic;
+    color: darken($text-color, 10%);
+  }
+  @include border-bottom;
+}
+
+
+
