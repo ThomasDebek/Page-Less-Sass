@@ -3,9 +3,14 @@
 <head>
   <title>ImportWSass</title>
 
-  <link rel="stylesheet" href="application.scss" type="text/css" media="screen" />
 
+  <!--
 
+  <link rel="stylesheet" href="application" type="text/css" media="screen" />   -->
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
 
 
 </head>
